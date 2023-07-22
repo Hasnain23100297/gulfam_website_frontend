@@ -1,0 +1,102 @@
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 150px;
+  }
+  
+  /* Reduce header size and make it sticky */
+  .App-header {
+    background-color: #3d4342;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically within the header */
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    top: 0;
+    /* z-index: 10; Add a z-index to ensure it stays on top of other content */
+   
+  }
+  
+  .header-nav {
+    display: flex;
+    gap: 600px; 
+    margin-top: 10px;
+    margin-left: 20px;
+  
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    /* border: 1px solid white; */
+    /* border-radius: 5px; */
+  
+  }
+  
+  .header-nav a {
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+  }
+  
+  .header-nav a:first-child {
+    margin-right: 10px; /* Add margin only to the right of the first link */
+  }
+  
+  .header-nav a:last-child {
+    margin-left: 10px; /* Add margin only to the left of the last link */
+  }
+  
+  .header-nav a:hover {
+    color: #e66524;
+  }
+  
+  .header-nav a:last-child {
+    margin-right: 0;
+  }
+  
+  .header-content {
+  
+  
+    
+    text-align: center;
+  
+    font-size: 18px;
+    line-height: 1.6;
+    
+  }
+  .page-content
+  {
+    
+    padding-top: 180px; /* Adjust the padding value as needed to create enough space below the header */
+    
+  }
+  
+  
+  
+  
+  /* Media query to adjust font size on smaller screens */
+  @media screen and (max-width: 600px) {
+    .App-header {
+      font-size: 16px;
+    }
+  }
+  
