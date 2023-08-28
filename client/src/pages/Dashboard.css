@@ -4,10 +4,11 @@ body {
     margin: 0;
     padding: 0;
   }
-  .App {
+
+  /* .App {
     text-align: center;
   }
-  
+   */
   .App-logo {
     height: 40vmin;
     pointer-events: none;
@@ -16,7 +17,7 @@ body {
   .logo {
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 400px;
     max-width: 150px;
   }
   
@@ -43,7 +44,7 @@ body {
     margin-top: 10px;
     margin-left: 20px;
   
-    color: white;
+    color: rgb(1, 1, 1);
     text-decoration: none;
     font-size: 18px;
     padding: 10px 20px;
@@ -53,7 +54,7 @@ body {
   }
   
   .header-nav a {
-    color: rgb(255, 253, 253);
+    color: rgb(8, 8, 8);
     text-decoration: none;
   }
   
@@ -83,12 +84,8 @@ body {
     line-height: 1.6;
     
   }
-  .page-content
-  {
-    
-    padding-top: 180px; /* Adjust the padding value as needed to create enough space below the header */
-    
-  }
+
+   
   
   
   

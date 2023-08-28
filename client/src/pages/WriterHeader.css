@@ -12,7 +12,7 @@ body {
     margin-top: 20px;
     background-color: #ff4500; /* Attractive orange color, you can change it */
     color: #fff;
-    border: none;
+    border: white;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
@@ -37,24 +37,26 @@ body {
   }
   
   .logo {
-    position: absolute;
-    top: 20px;
+    position: flex;
+    top: 2px;
     left: 20px;
-    max-width: 150px;
+    max-width: 200px;
   }
   
   /* Reduce header size and make it sticky */
   .App-header {
     background-color: #3d4342;
-    height: 180px;
+    height: 500px;
     width: 100%;
+    position: flex;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; /* Center content vertically within the header */
     font-size: 20px;
-    color: white;
-    position: fixed;
+    color: #ffffff;
+    
+    position: sticky;
     top: 0;
     /* z-index: 10; Add a z-index to ensure it stays on top of other content */
    
@@ -63,21 +65,31 @@ body {
   .header-nav {
     display: flex;
     gap: 600px; 
-    margin-top: 10px;
+    margin-top: 100px;
     margin-left: 20px;
   
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
+    border: rgb(255, 255, 255);
     padding: 10px 20px;
+    border-radius: 4px;
+    background-color: rgb(69, 66, 66);
+   
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+    transition: background-color 0.3s ease-in-out; /* Add a smooth transition on hover */
     /* border: 1px solid white; */
     /* border-radius: 5px; */
   
   }
   
   .header-nav a {
-    color: rgb(255, 253, 253);
-    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: rgb(202, 130, 23);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Adjust shadow values */
+    background-color: rgb(69, 66, 66);
+
   }
   
   .header-nav a:first-child {
@@ -106,10 +118,11 @@ body {
     line-height: 1.6;
     
   }
+  
   .page-content
   {
     
-    padding-top: 180px; /* Adjust the padding value as needed to create enough space below the header */
+    padding-top: 100px; /* Adjust the padding value as needed to create enough space below the header */
     
   }
   

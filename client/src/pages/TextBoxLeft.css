@@ -1,0 +1,26 @@
+
+
+.content-container {
+  display: flex;
+  
+
+}
+
+.text-box-left,
+
+.text-box-right {
+  width: 50%;
+  padding: 20px;
+  background-color: #ffffff; 
+  margin-bottom: 20px;
+}
+
+.text-box-right {
+
+  margin-left: 50px; /* Add margin to create space between the text boxes */
+
+}
+
+.blank-side {
+  flex-grow: 1;
+}

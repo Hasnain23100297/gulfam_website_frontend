@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import companyLogo from '.././images/Logo_orignal.png';
+import companyLogo from '.././images/a.png';
 
 const Header = () => 
 {
@@ -19,6 +19,7 @@ const Header = () =>
       <div className="App">
         <header className="App-header">
         <div className="header-content">
+          
           <h1>Welcome to Sage Scholastic</h1>
           <p>Empowering Writers, Enriching Content.</p>
           <nav className="header-nav">
@@ -32,7 +33,7 @@ const Header = () =>
             <a href="#section4">Section 4</a> */}
           </nav>
         </div>
-          <img src={companyLogo} alt="Company Logo" className="logo" />
+          <img src={companyLogo} alt = "Company Logo" className="logo" />
           
         </header>
   

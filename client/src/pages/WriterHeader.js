@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './WriterHeader.css';
-import companyLogo from '.././images/Logo_orignal.png';
+import companyLogo from '.././images/a.png';
 import ApplicationForm from './ApplicationForm';
 
 const WriterHeader = () => {

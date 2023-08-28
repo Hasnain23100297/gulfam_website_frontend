@@ -16,9 +16,12 @@ body {
   .logo {
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 200px;
     max-width: 150px;
   }
+
+
+  
   
   /* Reduce header size and make it sticky */
   .App-header {
@@ -31,7 +34,16 @@ body {
     justify-content: center; /* Center content vertically within the header */
     font-size: 20px;
     color: white;
-    position: fixed;
+    /* position: fixed; */
+
+    position: relative; /* Add this to make sure the image covers the entire header */
+    background-image: url('.././images/header_background.png'); /* Replace with the path to your transparent image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 80px 0; /* Adjust padding as needed */
+    text-align: center;
+  
     top: 0;
     /* z-index: 10; Add a z-index to ensure it stays on top of other content */
    
@@ -43,7 +55,7 @@ body {
     margin-top: 10px;
     margin-left: 20px;
   
-    color: white;
+    color: rgb(4, 4, 4);
     text-decoration: none;
     font-size: 18px;
     padding: 10px 20px;
@@ -53,7 +65,7 @@ body {
   }
   
   .header-nav a {
-    color: rgb(255, 253, 253);
+    color: rgb(5, 5, 5);
     text-decoration: none;
   }
   
